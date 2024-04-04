@@ -15,4 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a recent Computer Science graduate of [Cornell University](http://www.cornell.edu) curious about human-computer interaction and social computing. 
+I'm a PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). 
+
+I broadly study user behavior and information movement in online social networks. Topics that interest me include user wellbeing, conflict, and misinformation. 
+
+Previously, I graduated from Cornell University with a B.S. Computer Science (2023). I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research, which primarily focused on the fields of human-robot interaction and social computing.
