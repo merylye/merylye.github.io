@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Debut of [Toaster Bot](https://spectrum.ieee.org/human-robot-interaction-2659586979) at HRI.
