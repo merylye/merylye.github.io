@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I present [The Future of Home Appliances](https://ieeexplore.ieee.org/document/10309555) at RO-MAN.
+I presented [The Future of Home Appliances](https://ieeexplore.ieee.org/document/10309555) at RO-MAN.
