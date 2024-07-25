@@ -1,8 +1,8 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+title: RO-MAN 2023
+date: 2023-08-29 16:11:00-0400
+inline: true
 related_posts: false
 ---
 
