@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). 
+I'm a first-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). 
 
 I broadly study user behavior and information movement in online social networks. Topics that interest me include user wellbeing, conflict, and misinformation. 
 
