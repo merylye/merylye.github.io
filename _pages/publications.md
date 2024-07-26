@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: I investigate the complex relationships and interactions involving people and technology.
+description: #put something here
 nav: true
 nav_order: 2
 ---
