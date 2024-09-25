@@ -6,7 +6,7 @@ title: Meryl Ye # the website title (if blank, full name will be used instead)
 first_name: Meryl 
 middle_name: 
 last_name: Ye
-email: ye2@andrew.cmu.edu
+email: merylye@cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   MY Personal Website.
 footer_text: >
@@ -103,7 +103,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  To reach me by email: ye2 [at] andrew [dot] cmu [dot] edu
+  To reach me by email: merylye [at] cmu [dot] edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
