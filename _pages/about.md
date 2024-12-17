@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a first-year Societal Computing PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). My advisor is [Patrick Park](https://patpark.org/).
+I'm a first-year Societal Computing PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/) (yes, it is quite a mouthful). My advisor is [Patrick Park](https://patpark.org/).
 
 I broadly study user behavior and information movement in online social networks. Topics that interest me include user wellbeing, conflict, and misinformation. 
 
