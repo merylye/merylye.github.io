@@ -16,19 +16,20 @@ layout: default
   </header>
 
   <article>
+    
     <div class="cv text-center mb-4">
       {% if page.cv_pdf %}
         <iframe 
           src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" 
           width="100%" 
-          height="90vh" 
-          style="border: none;">
+          style="border: none; height: calc(100vh - 150px);">
           Your browser does not support PDF previews. Please 
           <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">download the CV</a>.
         </iframe>
-      {% else %}
-        <p>No CV available to preview. Please check back later.</p>
-      {% endif %}
-    </div>
+    {% else %}
+      <p>No CV available to preview. Please check back later.</p>
+    {% endif %}
+  </div>
+
   </article>
 </div>
