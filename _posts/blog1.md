@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2024 End of Year Review
+title: MY 2024 End of Year Review
 date: 2024-12-27 10:14:00-0400
 description: a review and reflection on MY 2024
 tags: 2024
