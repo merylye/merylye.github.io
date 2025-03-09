@@ -2,7 +2,7 @@
 layout: page
 title: other
 permalink: /other/
-description: other things
+description:
 nav: false
 ---
 PAGE IN PROGRESS
