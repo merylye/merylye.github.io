@@ -1,7 +1,7 @@
 ---
 layout: page
+title: about me
 permalink: /about-me/
-title: About Me
 description: Learn more about me and my work
 nav: false
 ---
