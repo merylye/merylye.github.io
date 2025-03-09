@@ -8,4 +8,7 @@ dropdown: true
 children:
   - title: about me
     permalink: /about-me/
+  - title: divider
+  - title: blog
+    permalink: /blog/
 ---
