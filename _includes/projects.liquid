@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card hoverable">
-=======
-<div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       {% if project.img %}
         {%
           include figure.liquid
@@ -15,18 +9,10 @@
           path=project.img
           sizes = "250px"
           alt="project thumbnail"
-<<<<<<< HEAD
         %}
       {% endif %}
       <div class="card-body">
         <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-=======
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}

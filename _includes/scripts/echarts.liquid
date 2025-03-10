@@ -1,42 +1,24 @@
 {% if page.chart and page.chart.echarts %}
   <script
-<<<<<<< HEAD
     defer
     src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/dist/echarts.min.js"
     integrity="{{ site.echarts.integrity.library }}"
-=======
-    src="{{ site.third_party_libraries.echarts.url.js.library }}"
-    integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     crossorigin="anonymous"
   ></script>
   {% if site.enable_darkmode %}
     <script
-<<<<<<< HEAD
       defer
       src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/theme/dark-fresh-cut.js"
       integrity="{{ site.echarts.integrity.dark_theme }}"
-=======
-      src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
-      integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       crossorigin="anonymous"
     ></script>
   {% endif %}
   <script>
-<<<<<<< HEAD
     let theme = determineComputedTheme();
 
     /* Create echarts chart as another node and hide the code block, appending the echarts node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
     document.onreadystatechange = () => {
-=======
-    let echartsTheme = determineComputedTheme();
-
-    /* Create echarts chart as another node and hide the code block, appending the echarts node after it
-       this is done to enable retrieving the code again when changing theme between light/dark */
-    document.addEventListener('readystatechange', () => {
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-echarts').forEach((elem) => {
           const jsonData = elem.textContent;
@@ -48,11 +30,7 @@
           backup.after(chartElement);
 
           /* create echarts */
-<<<<<<< HEAD
           if (theme === 'dark') {
-=======
-          if (echartsTheme === 'dark') {
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
             var chart = echarts.init(chartElement, 'dark-fresh-cut');
           } else {
             var chart = echarts.init(chartElement);
@@ -64,10 +42,6 @@
           });
         });
       }
-<<<<<<< HEAD
     };
-=======
-    });
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
   </script>
 {% endif %}

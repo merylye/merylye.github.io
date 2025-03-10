@@ -6,10 +6,6 @@ on:
       - master
       - main
     paths:
-<<<<<<< HEAD
-=======
-      - ".github/workflows/deploy-image.yml"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - "bin/entry_point.sh"
       - "Dockerfile"
       - "Gemfile"

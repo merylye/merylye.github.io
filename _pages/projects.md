@@ -3,11 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of your cool projects.
-<<<<<<< HEAD
 nav: false
-=======
-nav: true
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
@@ -26,22 +22,14 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
-<<<<<<< HEAD
     <div class="row row-cols-2">
-=======
-    <div class="row row-cols-1 row-cols-md-2">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-<<<<<<< HEAD
   <div class="grid">
-=======
-  <div class="row row-cols-1 row-cols-md-3">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -60,22 +48,14 @@ horizontal: false
 {% if page.horizontal %}
 
   <div class="container">
-<<<<<<< HEAD
     <div class="row row-cols-2">
-=======
-    <div class="row row-cols-1 row-cols-md-2">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     {% for project in sorted_projects %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
-<<<<<<< HEAD
   <div class="grid">
-=======
-  <div class="row row-cols-1 row-cols-md-3">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

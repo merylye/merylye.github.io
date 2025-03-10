@@ -1,5 +1,4 @@
 {% if site.enable_google_analytics %}
-<<<<<<< HEAD
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8RP8QD69"></script>
   <script>
@@ -8,17 +7,6 @@
     gtag('js', new Date());
   
     gtag('config', 'G-ZT8RP8QD69');
-=======
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
   </script>
 {% endif %}
 {% if site.enable_cronitor_analytics %}
@@ -33,14 +21,3 @@
     cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
   </script>
 {% endif %}
-<<<<<<< HEAD
-=======
-{% if site.enable_pirsch_analytics %}
-  <script
-    defer
-    src="https://api.pirsch.io/pa.js"
-    id="pianjs"
-    data-code="{{ site.pirsch_analytics }}"
-  ></script>
-{% endif %}
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

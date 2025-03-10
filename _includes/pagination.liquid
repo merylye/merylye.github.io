@@ -1,9 +1,5 @@
 {% if paginator.total_pages > 1 %}
-<<<<<<< HEAD
   <nav aria-label="Blog page naviation">
-=======
-  <nav aria-label="Blog page navigation">
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     <ul class="pagination pagination-lg justify-content-center">
       <li class="page-item {% unless paginator.previous_page %}disabled{% endunless %}">
         <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}" tabindex="-1" aria-disabled="{{ paginator.previous_page }}"
@@ -13,11 +9,7 @@
       {% if paginator.page_trail %}
         {% for trail in paginator.page_trail %}
           <li class="page-item {% if page.url == trail.path %}active{% endif %}">
-<<<<<<< HEAD
             <a class="page-link" href="{{ trail.path | relative_url }}" title="{{trail.title}}">{{ trail.num }}</a>
-=======
-            <a class="page-link" href="{{ trail.path | relative_url | remove: 'index.html' }}" title="{{trail.title}}">{{ trail.num }}</a>
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
           </li>
         {% endfor %}
       {% endif %}

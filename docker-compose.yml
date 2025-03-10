@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 version: "3"
-=======
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 # this file uses prebuilt image in dockerhub
 services:
   jekyll:
@@ -12,8 +9,3 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
-<<<<<<< HEAD
-=======
-    environment:
-      - JEKYLL_ENV=development
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

@@ -1,52 +1,29 @@
 {% if page.chart and page.chart.vega_lite %}
   <script
     defer
-<<<<<<< HEAD
     src="https://cdn.jsdelivr.net/npm/vega@{{ site.vega.version }}/build/vega.min.js"
     integrity="{{ site.vega.integrity }}"
-=======
-    src="{{ site.third_party_libraries.vega.url.js }}"
-    integrity="{{ site.third_party_libraries.vega.integrity.js }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     crossorigin="anonymous"
   ></script>
   <script
     defer
-<<<<<<< HEAD
     src="https://cdn.jsdelivr.net/npm/vega-lite@{{ site.vega-lite.version }}/build/vega-lite.min.js"
     integrity="{{ site.vega-lite.integrity }}"
-=======
-    src="{{ site.third_party_libraries.vega-lite.url.js }}"
-    integrity="{{ site.third_party_libraries.vega-lite.integrity.js }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     crossorigin="anonymous"
   ></script>
   <script
     defer
-<<<<<<< HEAD
     src="https://cdn.jsdelivr.net/npm/vega-embed@{{ site.vega-embed.version }}/build/vega-embed.min.js"
     integrity="{{ site.vega-embed.integrity }}"
-=======
-    src="{{ site.third_party_libraries.vega-embed.url.js }}"
-    integrity="{{ site.third_party_libraries.vega-embed.integrity.js }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     crossorigin="anonymous"
   ></script>
 
   <script>
-<<<<<<< HEAD
     let theme = determineComputedTheme();
 
     /* Create vega lite chart as another node and hide the code block, appending the vega lite node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
     document.onreadystatechange = () => {
-=======
-    let vegaTheme = determineComputedTheme();
-
-    /* Create vega lite chart as another node and hide the code block, appending the vega lite node after it
-       this is done to enable retrieving the code again when changing theme between light/dark */
-    document.addEventListener('readystatechange', () => {
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-vega_lite').forEach((elem) => {
           const jsonData = elem.textContent;
@@ -58,21 +35,13 @@
           backup.after(chartElement);
 
           /* Embed the visualization in the container */
-<<<<<<< HEAD
           if (theme === 'dark') {
-=======
-          if (vegaTheme === 'dark') {
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
             vegaEmbed(chartElement, JSON.parse(jsonData), { theme: 'dark' });
           } else {
             vegaEmbed(chartElement, JSON.parse(jsonData));
           }
         });
       }
-<<<<<<< HEAD
     };
-=======
-    });
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
   </script>
 {% endif %}

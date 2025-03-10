@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 bundle exec jekyll build --lsi
-=======
-bundle exec jekyll build
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

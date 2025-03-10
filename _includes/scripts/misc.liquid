@@ -10,13 +10,8 @@
   <!-- Medium Zoom JS -->
   <script
     defer
-<<<<<<< HEAD
     src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js"
     integrity="{{ site.medium_zoom.integrity }}"
-=======
-    src="{{ site.third_party_libraries.medium_zoom.url.js }}"
-    integrity="{{ site.third_party_libraries.medium_zoom.integrity.js }}"
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     crossorigin="anonymous"
   ></script>
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
@@ -29,16 +24,7 @@
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
   <!-- Bootstrap Table doesn't go well with diff2html -->
-<<<<<<< HEAD
   <script defer src="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.js"></script>
-=======
-  <script
-    defer
-    src="{{ site.third_party_libraries.bootstrap-table.url.js }}"
-    integrity="{{ site.third_party_libraries.bootstrap-table.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 {% endif %}
 
 <!-- Load Common JS -->
@@ -48,8 +34,3 @@
 
 <!-- Jupyter Open External Links New Tab -->
 <script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
-<<<<<<< HEAD
-=======
-
-{% assign site.test-library.url = site.test-library.url | append: 'teste' %}
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

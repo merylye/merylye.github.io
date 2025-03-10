@@ -1,11 +1,7 @@
 ---
 layout: page
 title: project 1
-<<<<<<< HEAD
 description: a project with a background image
-=======
-description: with background image
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 img: assets/img/12.jpg
 importance: 1
 category: work

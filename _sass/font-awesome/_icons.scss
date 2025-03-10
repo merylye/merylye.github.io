@@ -5,13 +5,7 @@
 readers do not read off random characters that represent icons */
 
 @each $name, $icon in $fa-icons {
-<<<<<<< HEAD
   .#{$fa-css-prefix}-#{$name}::before {
     content: unquote('"#{ $icon }"');
   }
 }
-=======
-  .#{$fa-css-prefix}-#{$name}::before { content: unquote("\"#{ $icon }\""); }
-}
-
->>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
