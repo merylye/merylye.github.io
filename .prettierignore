@@ -1,6 +1,20 @@
+<<<<<<< HEAD
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
 assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
+=======
+**/*.map
+**/*.min.css
+**/*.min.js
+assets/css/main.scss
+assets/js/search-data.js
+assets/js/distillpub/template.v2.js
+assets/js/search/*.js
+assets/plotly/demo.html
+lighthouse_results/**
+_posts/2015-10-20-math.md
+_sass/font-awesome/*.scss
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

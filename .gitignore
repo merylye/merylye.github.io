@@ -7,5 +7,12 @@ _site
 .ruby-version
 .tweet-cache
 Gemfile.lock
+<<<<<<< HEAD
 node_modules/
 vendor
+=======
+assets/libs/
+node_modules/
+vendor
+.idea
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26

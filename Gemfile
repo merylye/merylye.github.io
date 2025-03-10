@@ -11,8 +11,15 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
+<<<<<<< HEAD
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
+=======
+    gem 'jekyll-regex-replace'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
@@ -21,6 +28,10 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
+<<<<<<< HEAD
+=======
+    gem 'css_parser'
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     gem 'feedjira'
     gem 'httparty'
 end

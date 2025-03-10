@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="card-item col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card hoverable">
@@ -5,11 +6,24 @@
         {% if project.img %}
           <div class="card-img col-md-6">
             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
+=======
+<div class="col mb-4">
+  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      <div class="row no-gutters">
+        {% if project.img %}
+          <div class="col-md-6">
+            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
           </div>
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
+<<<<<<< HEAD
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+=======
+            <h3 class="card-title">{{ project.title }}</h3>
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
             <p class="card-text">{{ project.description }}</p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}

@@ -1,4 +1,5 @@
 {% if site.enable_math %}
+<<<<<<< HEAD
   <!-- MathJax -->
   <script type="text/javascript">
     window.MathJax = {
@@ -14,4 +15,29 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@{{ site.mathjax.version }}/es5/tex-mml-chtml.js"
   ></script>
   <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+=======
+  {% unless page.pseudocode %}
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script
+      defer
+      type="text/javascript"
+      id="MathJax-script"
+      src="{{ site.third_party_libraries.mathjax.url.js }}"
+      integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="{{ site.third_party_libraries.polyfill.url.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endunless %}
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 {% endif %}

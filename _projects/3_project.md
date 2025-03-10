@@ -1,6 +1,10 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: project 3
+=======
+title: project 3 with very long name
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com

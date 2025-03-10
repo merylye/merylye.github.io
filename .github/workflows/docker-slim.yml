@@ -2,6 +2,15 @@ name: Docker Slim
 
 #Only trigger, when the build workflow succeeded
 on:
+<<<<<<< HEAD
+=======
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - ".github/workflows/docker-slim.yml"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
   workflow_run:
     workflows: ["Docker Image CI"]
     types:
@@ -15,7 +24,11 @@ on:
 jobs:
   build:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
+<<<<<<< HEAD
     if: ${{ github.event.workflow_run.conclusion == 'success' }} and github.repository_owner == 'alshedivat'
+=======
+    if: ${{ github.event.workflow_run.conclusion == 'success' && github.repository_owner == 'alshedivat' }}
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -37,7 +50,11 @@ jobs:
           sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml
           cat ${{ github.workspace }}/docker-compose.yml
 
+<<<<<<< HEAD
       - uses: kitabisa/docker-slim-action@v1.0.3
+=======
+      - uses: kitabisa/docker-slim-action@v1.1.1
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
         env:
           DSLIM_PULL: true
           DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml

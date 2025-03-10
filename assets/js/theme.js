@@ -28,6 +28,10 @@ let applyTheme = () => {
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+<<<<<<< HEAD
+=======
+  setSearchTheme(theme);
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -186,6 +190,20 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
+<<<<<<< HEAD
+=======
+let setSearchTheme = (theme) => {
+  const ninjaKeys = document.querySelector("ninja-keys");
+  if (!ninjaKeys) return;
+
+  if (theme === "dark") {
+    ninjaKeys.classList.add("dark");
+  } else {
+    ninjaKeys.classList.remove("dark");
+  }
+};
+
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {

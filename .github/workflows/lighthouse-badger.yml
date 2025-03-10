@@ -12,10 +12,16 @@ name: "Lighthouse Badger"
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
 ########################################################################
 
+<<<<<<< HEAD
 # INPUTS as environmental variables (env) for not manually triggered workflows
 env:
   URLS: https://alshedivat.github.io/al-folio/
   TOKEN_NAME: LIGHTHOUSE_BADGER_TOKEN
+=======
+# INPUTS as Secrets (env) for not manually triggered workflows
+env:
+  URLS: https://alshedivat.github.io/al-folio/
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
   # If any of the following env is blank, a default value is used instead
   REPO_BRANCH: "${{ github.repository }} master" # target repository & branch e.g. 'dummy/mytargetrepo main'
   MOBILE_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --throttling.cpuSlowdownMultiplier=2"
@@ -50,7 +56,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ${{ env.REPOSITORY }}
+<<<<<<< HEAD
           token: ${{ secrets[github.event.inputs.token_name] || secrets[env.TOKEN_NAME] }}
+=======
+          token: ${{ secrets.LIGHTHOUSE_BADGER_TOKEN }}
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
           ref: ${{ env.BRANCH }}
       - uses: actions/checkout@v4
         with:

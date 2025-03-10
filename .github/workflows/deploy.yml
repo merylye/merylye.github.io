@@ -7,11 +7,20 @@ on:
       - main
     paths:
       - "assets/**"
+<<<<<<< HEAD
+=======
+      - "**.bib"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+<<<<<<< HEAD
+=======
+      - "Gemfile"
+      - "Gemfile.lock"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -31,11 +40,20 @@ on:
       - main
     paths:
       - "assets/**"
+<<<<<<< HEAD
+=======
+      - "**.bib"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+<<<<<<< HEAD
+=======
+      - "Gemfile"
+      - "Gemfile.lock"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -77,7 +95,11 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
+<<<<<<< HEAD
           bundle exec jekyll build --lsi
+=======
+          bundle exec jekyll build
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

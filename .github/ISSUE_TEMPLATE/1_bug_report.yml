@@ -81,7 +81,12 @@ body:
       description: select all environments where you have experienced this issue
       multiple: true
       options:
+<<<<<<< HEAD
         - "Running locally with Docker"
+=======
+        - "Running locally with Docker (docker compose)"
+        - "Running locally with Docker (devcontainer)"
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
         - "Running locally without Docker"
         - "Deployed site"
     validations:

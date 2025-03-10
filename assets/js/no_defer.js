@@ -8,7 +8,16 @@ $(document).ready(function () {
     }
 
     // only select tables that are not inside an element with "news" (about page) or "card" (cv page) class
+<<<<<<< HEAD
     if ($(this).parents('[class*="news"]').length == 0 && $(this).parents('[class*="card"]').length == 0 && $(this).parents("code").length == 0) {
+=======
+    if (
+      $(this).parents('[class*="news"]').length == 0 &&
+      $(this).parents('[class*="card"]').length == 0 &&
+      $(this).parents('[class*="archive"]').length == 0 &&
+      $(this).parents("code").length == 0
+    ) {
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
       // make table use bootstrap-table
       $(this).attr("data-toggle", "table");
       // add some classes to make the table look better

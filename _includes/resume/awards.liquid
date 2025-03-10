@@ -2,7 +2,11 @@
   {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
+<<<<<<< HEAD
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+=======
+        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+>>>>>>> 0af4aecf50426fc1e35696ca4c47940737175b26
           {% if content.date %} {% assign date = content.date | split: '-' | join: '.' %} {% else %} {% assign date = '' %} {% endif %}
           <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
         </div>
