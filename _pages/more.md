@@ -1,10 +1,14 @@
 ---
 layout: page
-title: More
+title: more
+permalink: /more/
 nav: true
 nav_order: 6
 dropdown: true
 children:
-  - title: Blog
-    permalink: /substack/
+  - title: blog
+    permalink: /blog/
+  - title: divider
+  - title: other
+    permalink: /other/
 ---
