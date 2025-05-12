@@ -19,4 +19,4 @@ I'm a first-year PhD student at Carnegie Mellon University in the School of Comp
 
 I broadly study user behavior and information movement in online social networks. Topics that interest me include user wellbeing, conflict, and self-presentation. 
 
-Previously, I graduated from Cornell University with a B.S. in Computer Science (2023). I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research, which was primarily in the fields of human-robot interaction and computational social science.
+Previously, I graduated from Cornell University with a B.S. in Computer Science (2023). I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research, which was primarily in human-robot interaction and computational social science.
