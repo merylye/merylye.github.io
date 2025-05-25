@@ -183,8 +183,6 @@ pagination:
 
   </ul>
 
-{% include mailchimp.html %}
-
 {% if page.pagination.enabled %}
 {% include pagination.liquid %}
 {% endif %}
