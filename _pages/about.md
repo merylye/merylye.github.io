@@ -20,3 +20,5 @@ Hello! I'm a first-year PhD student at Carnegie Mellon University in the School 
 I study how people present themselves and share information in digital social environments. My recent interests include self-disclosure, parasocial interaction, and audience management --- with a focus on how platform design and social network structure shape these behaviors. More broadly, I'm interested in the intersection of computational social science, HCI, and social media.
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
+
+_I'm always happy to connect with new people. Whether you're curious about my work, thinking about grad school, or just want to talk ideas, feel free to send me an email! _
