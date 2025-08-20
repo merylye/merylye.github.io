@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a first-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). My advisor is [Patrick Park](https://patpark.org/).
+Hello! I'm a first-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). 
 
 I study how people present themselves and share information in digital social environments. My recent interests include audience management, self-disclosure, and parasocial interaction --- with a focus on how platform design and affordances shape these behaviors. More broadly, I'm interested in the intersection of computational social science (CSS), human-computer interaction (HCI), and social media.
 
