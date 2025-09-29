@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preprint "Sycophantic AI increases attitude extremity and overconfidence" out now!
+Preprint ["Sycophantic AI increases attitude extremity and overconfidence"](https://osf.io/preprints/psyarxiv/vmyek_v1) out!
