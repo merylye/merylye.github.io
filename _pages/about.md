@@ -15,9 +15,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). 
+Hello! I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
 
-I study how people present themselves and share information in digital social environments. My recent interests include audience management, self-disclosure, and parasocial interaction --- with a focus on how platform design and affordances shape these behaviors. More broadly, I'm interested in the intersection of computational social science (CSS), human-computer interaction (HCI), and social media.
+I study how people present themselves and share information in digital social environments. My research examines how platform design and affordances shape audience management, self-disclosure, and parasocial interaction. Recently, I’ve extended this work to human–AI interaction, exploring why people choose to self-disclose to LLMs and how sycophantic AI behaviors affect users’ attitudes, confidence, and trust. More broadly, my work sits at the intersection of computational social science (CSS), human–computer interaction (HCI), and social media.
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
 
