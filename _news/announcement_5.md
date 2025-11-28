@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started an RA-ship with Data & Society's Health team.
+Started an RA-ship at [Data & Society](https://datasociety.net/people/meryl-ye/).
