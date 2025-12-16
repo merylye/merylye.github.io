@@ -19,6 +19,8 @@ social: true # includes social icons at the bottom of the page
 
 I study how people present themselves and share information in digital social environments. My research examines how platform design and affordances shape self-disclosure, audience management, and social interactions. Recently, I’ve extended this work to human–AI interaction, exploring why people choose to self-disclose to LLMs and how sycophantic AI behaviors affect users’ attitudes, confidence, and trust.
 
+I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use AI chatbots for mental and emotional support.
+
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
 
 _I'm always happy to connect with new people. Whether you're curious about my work, thinking about grad school, or just want to talk ideas, feel free to send me an email!_
