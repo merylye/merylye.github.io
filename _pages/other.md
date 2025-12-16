@@ -5,6 +5,6 @@ permalink: /other/
 description:
 nav: false
 ---
-PAGE IN PROGRESS
+[Substack](https://substack.com/@cowthattypes)
 
 
