@@ -17,9 +17,9 @@ social: true # includes social icons at the bottom of the page
 
 [Hihi!](https://www.reddit.com/r/norsk/comments/xm1mym/i_often_hear_norwegian_people_say_hi_hi_how_is_it/) I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
 
-I study how people present themselves and share information in digital social environments. My research examines how platform design and affordances shape self-disclosure, audience management, and social interactions. Recently, I’ve extended this work to human–AI interaction, exploring why people choose to self-disclose to LLMs and how sycophantic AI behaviors affect users’ attitudes, confidence, and trust.
+I study how sociotechnical systems shape human judgment, autonomy, and wellbeing. My research examines how AI systems influence users’ attitudes and decision-making. My recent work focuses on how sycophantic AI systems can miscalibrate confidence and shape beliefs. I develop conceptual and empirical tools to define and mitigate these effects, contributing to broader questions in AI alignment.
 
-I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use AI chatbots for mental and emotional support.
+I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team. I study the affective use of AI systems—what benefits users experience and where risks of misaligned support emerge. I am interested in participatory design and governance approaches to strengthening AI safety in mental health and care contexts.
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
 
