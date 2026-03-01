@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-[Hihi!](https://www.reddit.com/r/norsk/comments/xm1mym/i_often_hear_norwegian_people_say_hi_hi_how_is_it/) I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
+[Hihi!](https://www.reddit.com/r/norsk/comments/xm1mym/i_often_hear_norwegian_people_say_hi_hi_how_is_it/) I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/), where I am supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.edu/news/2025/1105-graduate-fellows.html). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
 
 I study how sociotechnical systems shape human judgment, autonomy, and wellbeing. My research examines how AI systems influence users’ attitudes and decision-making. My recent work focuses on how sycophantic AI systems can miscalibrate confidence and shape beliefs. I develop conceptual and empirical tools to define and mitigate these effects, contributing to broader questions in AI alignment.
 
