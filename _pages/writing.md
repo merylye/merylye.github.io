@@ -2,7 +2,7 @@
 layout: page
 title: writing
 permalink: /writing/
-description: non-academic articles and writing
+description: non-academic articles and public writing
 nav: true
 nav_order: 4
 ---
