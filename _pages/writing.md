@@ -6,6 +6,9 @@ description: non-academic articles and public writing
 nav: true
 nav_order: 4
 ---
+[Social Snacks: AI Companions and the Hunger for Connection](https://datasociety.net/points/social-snacks-ai-companions-and-the-hunger-for-connection/) <br>
+**Meryl Ye** <br>
+Data & Society Points Blog. 2026. <br>
 
 [Protecting the Public from Chatbot Harms: Aligning State Policy with Research](https://datasociety.net/points/protecting-the-public-from-chatbot-harms-aligning-state-policy-with-research/) <br>
 Serena Oduro, Briana Vecchione, **Meryl Ye**, Livia Garofalo <br>
