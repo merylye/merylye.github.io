@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I co-presented a paper with Isadora Krsek at [CHI](https://dl.acm.org/doi/full/10.1145/3772318.3790472)!
+I co-presented [Supporting Informed Self-Disclosure: Design Recommendations for Presenting AI-Estimates of Privacy Risks to Users](https://dl.acm.org/doi/full/10.1145/3772318.3790472) with Isadora at CHI!
