@@ -2,7 +2,7 @@
 layout: page
 title: other
 permalink: /other/
-description:
+description: ""
 nav: false
 ---
 [Substack](https://substack.com/@cowthattypes)
