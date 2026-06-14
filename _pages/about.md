@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-[Hihi!](https://www.reddit.com/r/norsk/comments/xm1mym/i_often_hear_norwegian_people_say_hi_hi_how_is_it/) I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/), where I am supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.edu/news/2025/1105-graduate-fellows.html). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
+I'm a second-year PhD student at Carnegie Mellon University in the School of Computer Science's [Software and Societal Systems Department](https://s3d.cmu.edu/), where I am supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.edu/news/2025/1105-graduate-fellows.html). I am advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
 
 My research examines how sociotechnical systems shape human judgment, autonomy, and wellbeing. I am particularly interested in the consequences of interacting with conversational AI, including how these systems influence beliefs, decision-making, trust, and emotional support.
 
