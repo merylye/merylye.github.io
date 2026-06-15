@@ -5,7 +5,11 @@ permalink: /calendar/
 description: ""
 nav: false
 ---
+This page is intended for colleagues to view my availability. Please do not share this link widely.
 
+I generally prefer to schedule meetings between 9 AM and 5 PM Eastern Time, though I can occasionally be flexible if necessary.
+
+I also typically try to keep 12–1 PM available for lunch. Feel free to schedule during that time if it is the most convenient option, but please be conscious of this preference. Thank you!
 
 <iframe
   src="https://calendar.google.com/calendar/embed?src=ye2%40andrew.cmu.edu&src=meryl%40datasociety.net"
