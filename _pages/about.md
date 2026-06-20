@@ -22,5 +22,3 @@ My research examines how sociotechnical systems shape human judgment, autonomy, 
 I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use general-purpose AI systems for emotional and mental health support, including both the benefits these systems provide and the risks that emerge when they become embedded in care practices.
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
-
-_I'm always happy to connect and collaborate with new people. Whether you're curious about my work, thinking about grad school, or just want to talk ideas, feel free to send me an email!_
