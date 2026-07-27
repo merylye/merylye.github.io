@@ -19,6 +19,6 @@ I'm a second-year PhD student at Carnegie Mellon University in the School of Com
 
 My research examines how sociotechnical systems shape human behavior. I have recently been interested in how AI systems influence human beliefs, decision-making, and wellbeing. I study these questions through a wide range of methods, including qualitative interviews and diary studies, behavioral experiments, surveys, and computational analyses.
 
-I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use general-purpose AI systems for emotional and mental health support, including both the benefits these systems provide and the risks that emerge when they become embedded in care practices.
+I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use general-purpose AI systems for emotional and mental health support, seeking to understand both the benefits these systems provide and the risks that emerge when they become embedded in care practices.
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
