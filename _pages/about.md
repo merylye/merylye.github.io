@@ -21,6 +21,6 @@ My research examines how sociotechnical systems shape human behavior. I have rec
 
 I am also a [research assistant](https://datasociety.net/people/meryl-ye/) with Data & Society’s AI on the Ground team, where I study how people use general-purpose AI systems for emotional and mental health support, seeking to understand both the benefits these systems provide and the risks that emerge when they become embedded in care practices.
 
-My work has been supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.edu/news/2025/1105-graduate-fellows.html). 
+My work has been supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.edu/news/2025/1105-graduate-fellows.html), the [Cosmos Insitute](https://www.cosmos-institute.org/), and the [National Science Foundation](https://www.nsf.gov/).
 
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
