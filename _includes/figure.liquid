@@ -1,4 +1,5 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign img_path = img_path | remove: '.JPG' | remove: '.JPEG' | remove: '.PNG' | remove: '.TIFF' | remove: '.GIF' %}
 
 <figure
   {% if include.slot %}

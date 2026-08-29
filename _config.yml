@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: Meryl Ye # the website title (if blank, full name will be used instead)
-first_name: Meryl 
-middle_name: 
+first_name: Meryl
+middle_name:
 last_name: Ye
 email: merylye@cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -219,6 +219,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/dropdown.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -232,7 +233,6 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -458,24 +458,3 @@ vega-embed:
 vega-lite:
   version: "5.16.3"
   integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references

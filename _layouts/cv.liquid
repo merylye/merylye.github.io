@@ -6,11 +6,12 @@ layout: default
     <h1 class="post-title">
       {{ page.title }}
       {% if page.cv_pdf %}
-        <a 
-          href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="btn btn-lg z-depth-0 btn-bordered float-right">
+        <a
+          href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-lg z-depth-0 btn-bordered float-right"
+        >
           <i class="fa-solid fa-file-pdf"></i> Download CV
         </a>
       {% endif %}
@@ -21,13 +22,19 @@ layout: default
   </header>
 
   <article>
+    {% assign cv_intro = content | strip %}
+    {% if cv_intro != '' %}
+      <div class="mb-4">{{ cv_intro }}</div>
+    {% endif %}
+
     <div class="cv text-center mb-4">
       {% if page.cv_pdf %}
-        <iframe 
-          src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" 
-          width="100%" 
-          style="border: none; height: calc(100vh - 150px);">
-          Your browser does not support PDF previews. Please 
+        <iframe
+          src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          width="100%"
+          style="border: none; height: calc(100vh - 150px);"
+        >
+          Your browser does not support PDF previews. Please
           <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}">download the CV</a>.
         </iframe>
       {% else %}
