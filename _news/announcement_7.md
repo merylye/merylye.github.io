@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented a poster about [Navigating Context Collapse](https://dl.acm.org/doi/10.1145/3715070.3749258) at CSCW. 
+I presented a poster about [Navigating Context Collapse](https://dl.acm.org/doi/10.1145/3715070.3749258) at CSCW.
