@@ -24,7 +24,13 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
+    <div class="blog-title-row">
+      <h1>{{ site.blog_name }}</h1>
+      <picture class="blog-icon">
+        <source srcset="{{ '/assets/img/icon-480.webp' | relative_url }}" type="image/webp">
+        <img src="{{ '/assets/img/icon.jpg' | relative_url }}" alt="" width="144" height="144" />
+      </picture>
+    </div>
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}

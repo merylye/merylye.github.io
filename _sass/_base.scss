@@ -513,6 +513,39 @@ footer.sticky-bottom {
     color: var(--global-theme-color);
     font-size: 5rem;
   }
+
+  /* blog title and icon sit side by side, centered as one group */
+  .blog-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+
+    h1 {
+      margin-bottom: 0;
+    }
+  }
+
+  .blog-icon {
+    display: block;
+    flex: 0 0 auto;
+
+    img {
+      display: block;
+      width: 9rem;
+      height: 9rem;
+      object-fit: cover;
+    }
+  }
+
+  /* on small screens the icon stacks above the title */
+  @media (max-width: 576px) {
+    .blog-title-row {
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+  }
 }
 
 .tag-category-list {
