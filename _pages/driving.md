@@ -195,15 +195,22 @@ nav: false
     line-height: 0.95rem;
     opacity: 0.75;
   }
-  /* the road under the bars */
+  /* One tick per Likert point, aligned under its own bar - same padding and
+     gap as .dr-hist so the ticks line up exactly with the five columns. */
   .dr-lane {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     height: 5px;
-    background-image: linear-gradient(to right, var(--paint) 0 12px, transparent 12px 22px);
-    background-repeat: repeat-x;
-    background-size: 22px 3px;
-    background-position: left center;
-    background-color: var(--road);
+    padding: 0 0.15rem;
+    background: var(--road);
     border-radius: 0 0 3px 3px;
+  }
+  .dr-tick {
+    flex: 1;
+    height: 3px;
+    background: var(--paint);
+    border-radius: 1px;
   }
   .dr-ends {
     display: flex;
@@ -447,7 +454,12 @@ nav: false
           hist.appendChild(col);
         });
         card.appendChild(hist);
-        card.appendChild(el("div", "dr-lane"));
+
+        var lane = el("div", "dr-lane");
+        for (var k = 0; k < 5; k++) {
+          lane.appendChild(el("span", "dr-tick"));
+        }
+        card.appendChild(lane);
 
         var ends = el("div", "dr-ends");
         ends.appendChild(el("span", null, "1 = bad"));
