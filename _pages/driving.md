@@ -19,6 +19,8 @@ nav: false
     <span class="dr-sticker-q">Rate my driving</span>
   </div>
 
+<a class="dr-cta" href="https://forms.gle/sycZtmBeqmMPCwMU8" target="_blank" rel="noopener">Add your rating &rarr;</a>
+
   <p class="dr-status" id="dr-status">Warming up the engine&hellip;</p>
 
   <div id="dr-body" hidden>
@@ -54,6 +56,9 @@ nav: false
     --plate-bg: #f6f4ec;
     --plate-ink: #17171a;
     --bubble: rgba(0, 0, 0, 0.035);
+    /* --paint is bright yellow in both themes, so the button label stays dark
+       in both. Deliberately not overridden in the dark block below. */
+    --cta-ink: #17171a;
   }
   html[data-theme="dark"] .dr {
     --road: #2c2c31;
@@ -95,6 +100,46 @@ nav: false
     line-height: 1.1;
     letter-spacing: 0.01em;
     text-transform: uppercase;
+  }
+
+  /* al-folio styles `a { color: var(--global-theme-color) }` and underlines on
+     hover, so state colour and decoration explicitly on both states. */
+  .dr-cta {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 1.4rem;
+    background: var(--paint);
+    color: var(--cta-ink);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 0.65rem 1.15rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+  .dr-cta:hover,
+  .dr-cta:focus-visible {
+    color: var(--cta-ink);
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.28);
+  }
+  .dr-cta:focus-visible {
+    outline: 2px solid var(--global-text-color);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .dr-cta {
+      transition: none;
+    }
+    .dr-cta:hover,
+    .dr-cta:focus-visible {
+      transform: none;
+    }
   }
 
   .dr-status {
