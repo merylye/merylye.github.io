@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: default
 title: driving
 permalink: /driving/
-description: a report card from my passengers
 nav: false
 ---
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" />
 
-<div class="dr">
+<div class="post">
+  <article>
+    <div class="dr">
   <div class="dr-sticker">
     <svg class="dr-wheel" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
       <circle cx="50" cy="50" r="41" fill="none" stroke="currentColor" stroke-width="11" />
@@ -36,8 +37,10 @@ nav: false
     <div id="dr-child"></div>
 
     <div id="dr-text"></div>
+      </div>
+    </div>
 
-  </div>
+  </article>
 </div>
 
 <style>
@@ -84,6 +87,9 @@ nav: false
   }
   .dr-sticker-q {
     display: block;
+    /* al-folio sets `span { color: var(--global-text-color) }` globally, which
+       beats inheriting the sticker's colour, so state it explicitly here. */
+    color: var(--plate-bg);
     font-family: "Bungee", "Impact", sans-serif;
     font-size: clamp(1.35rem, 5.5vw, 2.1rem);
     line-height: 1.1;
