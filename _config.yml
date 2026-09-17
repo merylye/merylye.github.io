@@ -125,6 +125,11 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: Diary of a PhD # blog_name will be displayed in your blog page
 blog_description: jottings, thoughts, and other things
 permalink: /blog/:year/:title/
+# Publish posts even if their date is slightly ahead of build time. Jekyll's
+# default (false) silently drops them, and since builds only run on push, such
+# a post stays invisible until something else is pushed - even after its date
+# has passed. Set true so a post is never lost to a timestamp.
+future: true
 
 # Pagination
 pagination:
