@@ -9,3 +9,6 @@ _site
 Gemfile.lock
 node_modules/
 vendor
+# Analytics snapshots - regenerated on demand, not worth versioning
+_data/analytics.json
+dashboard.html
