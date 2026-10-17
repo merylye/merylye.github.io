@@ -1,0 +1,129 @@
+{% comment %}
+  Custom GA4 events, so the dashboard can answer questions the default
+  page_view cannot: how far people read a post, how long they stayed, which
+  papers they expanded, and which outbound links they followed.
+
+  Event names are deliberately self-describing (read_25, read_50, ...) because
+  event name is a built-in GA4 dimension, whereas event *parameters* only show
+  up in reports and the Data API after being registered as custom dimensions
+  in the GA interface. Parameters are sent too, for once that is set up.
+{% endcomment %}
+<script>
+  (function () {
+    if (typeof gtag !== "function") return;
+
+    var PAGE_TYPE = {{ page.layout | default: "page" | jsonify }};
+    var PAGE_TITLE = {{ page.title | default: "" | jsonify }};
+    var send = function (name, params) {
+      try {
+        gtag("event", name, params || {});
+      } catch (e) {}
+    };
+
+    // ---- outbound links, PDF downloads, paper abstracts ----
+    document.addEventListener(
+      "click",
+      function (e) {
+        var a = e.target && e.target.closest ? e.target.closest("a") : null;
+        if (!a) return;
+
+        // Expanding a paper's abstract on the research page.
+        if (a.classList && a.classList.contains("abstract")) {
+          var li = a.closest("li");
+          var t = li && li.querySelector(".title");
+          send("abstract_open", { paper: t ? t.textContent.trim().slice(0, 100) : "unknown" });
+          return;
+        }
+
+        var href = a.getAttribute("href") || "";
+        if (!href) return;
+
+        if (href.toLowerCase().indexOf(".pdf") !== -1) {
+          send("file_download", { file_name: href.split("/").pop() });
+          return;
+        }
+
+        if (/^https?:\/\//i.test(href) && a.hostname && a.hostname !== location.hostname) {
+          send("outbound_click", { link_domain: a.hostname, link_url: href.slice(0, 200) });
+        }
+      },
+      true
+    );
+
+    if (PAGE_TYPE !== "post") return;
+
+    // ---- how far down the post people get ----
+    var article = document.querySelector(".post");
+    if (!article) return;
+
+    var marks = [25, 50, 75, 100];
+    var fired = {};
+    var ticking = false;
+
+    var checkDepth = function () {
+      ticking = false;
+      var rect = article.getBoundingClientRect();
+      var total = rect.height - window.innerHeight;
+      if (total <= 0) {
+        // Post fits on one screen; treat as fully read.
+        if (!fired[100]) {
+          fired[100] = 1;
+          send("read_100", { post: PAGE_TITLE });
+        }
+        return;
+      }
+      var pct = Math.min(100, Math.max(0, Math.round((-rect.top / total) * 100)));
+      for (var i = 0; i < marks.length; i++) {
+        var m = marks[i];
+        if (pct >= m && !fired[m]) {
+          fired[m] = 1;
+          send("read_" + m, { post: PAGE_TITLE, depth: m });
+        }
+      }
+    };
+
+    window.addEventListener(
+      "scroll",
+      function () {
+        if (!ticking) {
+          ticking = true;
+          window.requestAnimationFrame(checkDepth);
+        }
+      },
+      { passive: true }
+    );
+    checkDepth();
+
+    // ---- engaged time on the post, counted only while the tab is visible ----
+    var engaged = 0;
+    var since = document.visibilityState === "visible" ? Date.now() : null;
+    var reported = false;
+
+    var accrue = function () {
+      if (since !== null) {
+        engaged += Date.now() - since;
+        since = null;
+      }
+    };
+
+    var report = function () {
+      if (reported) return;
+      accrue();
+      var secs = Math.round(engaged / 1000);
+      if (secs < 5) return; // ignore bounces
+      reported = true;
+      // Bucketed so the dashboard can chart it without custom dimensions.
+      var bucket = secs < 30 ? "under_30s" : secs < 120 ? "30s_2m" : secs < 300 ? "2m_5m" : "over_5m";
+      send("read_time_" + bucket, { post: PAGE_TITLE, seconds: secs });
+    };
+
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "visible") {
+        if (since === null) since = Date.now();
+      } else {
+        report();
+      }
+    });
+    window.addEventListener("pagehide", report);
+  })();
+</script>

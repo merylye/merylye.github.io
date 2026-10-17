@@ -3,11 +3,14 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT8RP8QD69"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-  
+
     gtag('config', 'G-ZT8RP8QD69');
   </script>
+  {% include scripts/engagement.liquid %}
 {% endif %}
 {% if site.enable_cronitor_analytics %}
   <!-- Cronitor RUM -->
