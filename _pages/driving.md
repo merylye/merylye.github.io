@@ -2,6 +2,7 @@
 layout: default
 title: driving
 permalink: /driving/
+wide: true
 nav: false
 ---
 

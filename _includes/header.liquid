@@ -2,6 +2,12 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <a class="navbar-brand navbar-icon" href="{{ site.baseurl }}/" aria-label="Home">
+        <picture>
+          <source srcset="{{ '/assets/img/icon-480.webp' | relative_url }}" type="image/webp">
+          <img src="{{ '/assets/img/icon.jpg' | relative_url }}" alt="" width="32" height="32" />
+        </picture>
+      </a>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}

@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /research/
+wide: true
 title: research
 nav: true
 nav_order: 2

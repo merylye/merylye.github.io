@@ -2,6 +2,7 @@
 layout: page
 title: public writing
 permalink: /writing/
+wide: true
 description: public writing and policy commentary
 nav: true
 nav_order: 4
