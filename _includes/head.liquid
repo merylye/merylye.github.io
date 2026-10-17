@@ -64,6 +64,21 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <!--
+    Dark mode is off, so theme.js is not loaded. Several scripts still call
+    determineComputedTheme() (no_defer.js, common.js, mermaid, vega, echarts,
+    diff2html, giscus), so define the helpers here and always answer "light".
+    Without this they throw a ReferenceError on every page.
+  -->
+  <script>
+    function determineComputedTheme() {
+      return 'light';
+    }
+    function determineThemeSetting() {
+      return 'light';
+    }
+  </script>
 {% endif %}
 
 <!-- GeoJSON support via Leaflet -->
