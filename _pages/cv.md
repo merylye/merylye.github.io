@@ -1,11 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
-nav: true
-nav_order: 5
-cv_pdf: MerylCV.pdf
-description: #Here's my CV.
-
+nav: false
+sitemap: false
+redirect: /assets/pdf/MerylCV.pdf
 ---
-Please see my [LinkedIn](https://www.linkedin.com/in/meryl-ye-551028171/) for more professional updates.
+
+Redirecting to my CV. If nothing happens, [open the PDF](/assets/pdf/MerylCV.pdf).
