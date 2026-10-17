@@ -1,11 +1,12 @@
 ---
 layout: page
-title: writing
+title: public writing
 permalink: /writing/
-description: non-academic articles and public writing
+description: public writing and policy commentary
 nav: true
 nav_order: 4
 ---
+
 [Social Snacks: AI Companions and the Hunger for Connection](https://datasociety.net/research-library/social-snacks-ai-companions-and-the-hunger-for-connection/) <br>
 **Meryl Ye** <br>
 Data & Society Points Blog. 2026. <br>
