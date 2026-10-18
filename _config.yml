@@ -6,7 +6,10 @@ title: Meryl Ye # the website title (if blank, full name will be used instead)
 first_name: Meryl
 middle_name:
 last_name: Ye
-email: merylye@cmu.edu
+# Left blank on purpose: setting this adds a mailto: envelope icon to the
+# social links, and its only obfuscation is percent-encoding, which scrapers
+# decode trivially. The address is given as text in contact_note instead.
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   MY Personal Website.
 footer_text: >
