@@ -27,6 +27,8 @@ I graduated from Cornell University in 2023 with a B.S. in Computer Science. I a
 
 View my CV [here](/assets/pdf/MerylCV.pdf).
 
+<br>
+
 [Google Scholar](https://scholar.google.com/citations?user=uoy11ZgAAAAJ&hl=en) <br>
 [LinkedIn](https://www.linkedin.com/in/meryl-ye-551028171/) <br>
 merylye [at] cmu [dot] edu
