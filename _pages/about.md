@@ -12,7 +12,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # icon buttons replaced by the plain text links at the end of this page
 ---
 
 I am a PhD student in the [Software and Societal Systems Department](https://s3d.cmu.edu/) at Carnegie Mellon University's School of Computer Science. I am fortunate to be advised by [Steve Rathje](https://stevenrathje.com/) and [Bob Kraut](https://kraut.hciresearch.info/).
@@ -26,3 +26,7 @@ My work has been supported by a [Sansom Graduate Fellowship](https://sc.cs.cmu.e
 I graduated from Cornell University in 2023 with a B.S. in Computer Science. I am grateful to have worked with [Malte Jung](https://mjung.infosci.cornell.edu/) and [Jon Kleinberg](https://www.cs.cornell.edu/home/kleinber/) in my undergraduate research.
 
 View my CV [here](/assets/pdf/MerylCV.pdf).
+
+[Google Scholar](https://scholar.google.com/citations?user=uoy11ZgAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/meryl-ye-551028171/)
+
+To reach me by email: merylye [at] cmu [dot] edu
