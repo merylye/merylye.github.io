@@ -8,9 +8,8 @@ nav: true
 nav_order: 4
 ---
 
-[Comment to FDA Docket FDA-2026-N-7874](/assets/pdf/comment-fda-2026-n-7874.pdf) <br>
-**Meryl Ye**, primary author of ARIA's comment to the FDA <br>
-ARIA. 2026. <br>
+[Comment to FDA Docket FDA-2026-N-7874 submitted on behalf of the NSF AI Research Institute on Interaction for AI Assistants (ARIA)](/assets/pdf/comment-fda-2026-n-7874.pdf) <br>
+(Primary author) <br>
 
 [Social Snacks: AI Companions and the Hunger for Connection](https://datasociety.net/research-library/social-snacks-ai-companions-and-the-hunger-for-connection/) <br>
 **Meryl Ye** <br>
